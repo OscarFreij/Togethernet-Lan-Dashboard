@@ -1,0 +1,71 @@
+:root{
+  --togethernet-orange: rgba(0, 0, 0, 1);
+}
+
+body{
+  margin: 0px;
+  font-family: 'Righteous', cursive;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100vh;
+}
+
+.wrapper > div {
+  border: 1px black solid;
+}
+
+.togethernet-announcement {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  /*background: red;*/
+  text-align: center;
+}
+
+.clock-spotify {
+  grid-row: 1/2;
+  /*background: blue;*/
+}
+
+.clock {
+  text-align: center;
+  margin: 30px;
+  border: 2px black solid;
+  border-radius: 5px
+}
+
+.spotify {
+  text-align: center;
+  margin: 30px;
+  border:2px black solid;
+  border-radius: 5px;
+}
+
+.ad {
+  /*background: orange;*/
+}
+
+.ad-loop {
+  text-align: center;
+  margin: auto;
+}
+
+.event-list {
+  margin-top: -20%;
+  /*background: purple;*/
+  padding: 10px;
+  z-index: 1;
+}
+
+.event-list-title {
+  text-align: center;
+}
+
+.event-item {
+  border: 2px black solid;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
